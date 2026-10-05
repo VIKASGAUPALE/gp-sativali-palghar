@@ -24,7 +24,7 @@ const Contact = () => {
           <div className="bg-white rounded-2xl shadow-lg p-6 border border-slate-100">
             <h2 className="font-bold text-lg text-[#0b3d91] font-marathi mb-4">कार्यालय माहिती</h2>
             <div className="space-y-3 text-slate-600 font-marathi text-sm">
-              <p>📍 गट ग्रामपंचायत सातिवली<br />तालुका पालघर, जिल्हा पालघर</p>
+              <p>📍  ग्रामपंचायत सातिवली<br />तालुका पालघर, जिल्हा पालघर</p>
               <p>🕐 सोमवार ते शनिवार<br />सकाळी १०:०० ते संध्याकाळी ५:००</p>
               <p>📞 कार्यालयात संपर्क उपलब्ध</p>
             </div>

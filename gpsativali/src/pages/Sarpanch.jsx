@@ -21,7 +21,7 @@ const Sarpanch = () => {
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-slate-100 mb-10">
           <div className="bg-gradient-to-r from-[#0b3d91] to-[#138808] p-6 text-white text-center">
             <h1 className="text-2xl md:text-3xl font-bold font-marathi">👑 सरपंच</h1>
-            <p className="text-white/80 font-marathi text-sm mt-1">गट ग्रामपंचायत सातिवली</p>
+            <p className="text-white/80 font-marathi text-sm mt-1"> ग्रामपंचायत सातिवली</p>
           </div>
           <div className="p-6 md:p-8 flex flex-col md:flex-row items-center gap-6">
             <div className="w-40 h-40 rounded-2xl overflow-hidden shadow-lg bg-slate-100 flex-shrink-0">
@@ -31,7 +31,7 @@ const Sarpanch = () => {
               <h2 className="text-2xl font-bold text-slate-800 font-marathi">श्री. कृष्णा मंगल जाधव</h2>
               <p className="text-[#138808] font-semibold font-marathi mt-1">👑 सरपंच — थेट निवड</p>
               <p className="text-slate-500 font-marathi text-sm mt-2">📅 कार्यकाळ: </p>
-              <p className="text-slate-500 font-marathi text-sm">🏡 गट ग्रामपंचायत सातिवली, ता. जि. पालघर</p>
+              <p className="text-slate-500 font-marathi text-sm">🏡  ग्रामपंचायत सातिवली, ता. जि. पालघर</p>
             </div>
           </div>
         </div>

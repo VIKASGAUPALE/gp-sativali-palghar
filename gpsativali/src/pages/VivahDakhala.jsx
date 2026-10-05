@@ -9,7 +9,7 @@ const VivahDakhala = () => {
     <div className="max-w-3xl mx-auto px-4 py-10">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
         <h1 className="text-3xl font-bold text-[#0b3d91] font-marathi mb-2">{isMr ? 'विवाह दाखला' : 'Marriage Certificate'}</h1>
-        <p className="text-slate-500 font-marathi mb-8">गट ग्रामपंचायत सातिवली</p>
+        <p className="text-slate-500 font-marathi mb-8"> ग्रामपंचायत सातिवली</p>
 
         <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8 border border-slate-100 space-y-6">
           <div>

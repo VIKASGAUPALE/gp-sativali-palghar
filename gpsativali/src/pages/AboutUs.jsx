@@ -11,7 +11,7 @@ const AboutUs = () => {
   ]
 
   const info = [
-    '🏛️ ग्रामपंचायतीचे नाव : गट ग्रामपंचायत सातिवली',
+    '🏛️ ग्रामपंचायतीचे नाव :  ग्रामपंचायत सातिवली',
     '📍 तालुका : पालघर',
     '📍 जिल्हा : पालघर',
     '📅 स्थापना वर्ष : १९६५',
@@ -26,7 +26,7 @@ const AboutUs = () => {
     <div className="max-w-7xl mx-auto px-4 py-10">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
         <h1 className="text-3xl font-bold text-[#0b3d91] font-marathi mb-2">{t('about')}</h1>
-        <p className="text-slate-500 font-marathi mb-8">गट ग्रामपंचायत सातिवली: प्रगतीचा संकल्प</p>
+        <p className="text-slate-500 font-marathi mb-8"> ग्रामपंचायत सातिवली: प्रगतीचा संकल्प</p>
 
         <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8 mb-10 border border-slate-100">
           <p className="text-slate-700 leading-relaxed font-marathi text-lg">

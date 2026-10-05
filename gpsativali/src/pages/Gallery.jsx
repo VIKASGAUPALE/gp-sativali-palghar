@@ -20,7 +20,7 @@ const Gallery = () => {
     <div className="max-w-7xl mx-auto px-4 py-10">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
         <h1 className="text-3xl font-bold text-[#0b3d91] font-marathi mb-2">📸 छायाचित्र गॅलरी</h1>
-        <p className="text-slate-500 font-marathi mb-8">🏡 गट ग्रामपंचायत सातिवली — गाव व विकास कामांचे फोटो</p>
+        <p className="text-slate-500 font-marathi mb-8">🏡  ग्रामपंचायत सातिवली — गाव व विकास कामांचे फोटो</p>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
           {galleryImages.map((src, i) => (

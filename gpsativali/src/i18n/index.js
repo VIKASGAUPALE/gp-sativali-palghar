@@ -5,7 +5,7 @@ const resources = {
   mr: {
     translation: {
       // Common
-      siteName: "गट ग्रामपंचायत सातिवली",
+      siteName: " ग्रामपंचायत सातिवली",
       tagline: "तालुका पालघर | जिल्हा पालघर",
       welcome: "आपले स्वागत आहे",
       home: "मुख्य पृष्ठ",

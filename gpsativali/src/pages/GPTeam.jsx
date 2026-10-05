@@ -26,7 +26,7 @@ const GPTeam = () => {
     <div className="max-w-6xl mx-auto px-4 py-10">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
         <h1 className="text-3xl font-bold text-[#0b3d91] font-marathi mb-2">👥 {t('team')}</h1>
-        <p className="text-slate-500 font-marathi mb-2">🏛️ गट ग्रामपंचायत सातिवली — कार्यकारी मंडळ</p>
+        <p className="text-slate-500 font-marathi mb-2">🏛️  ग्रामपंचायत सातिवली — कार्यकारी मंडळ</p>
         <p className="text-sm text-slate-400 font-marathi mb-8">📅 निवडणूक कालावधी: २६/१०/२०२२ ते २७/१०/२०२७ | 🏠 स्थापना: १९६५</p>
 
         <h2 className="text-xl font-bold text-[#0b3d91] font-marathi mb-5">🗳️ निर्वाचित सदस्य</h2>

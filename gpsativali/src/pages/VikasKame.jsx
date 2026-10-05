@@ -7,7 +7,7 @@ const works = Array.from({ length: 45 }, (_, i) => ({
   id: i + 1,
   title: `विकास काम ${i + 1}`,
   photo: `/images/img${i + 1}.jpeg`,
-  desc: 'गट ग्रामपंचायत सातिवली अंतर्गत राबविलेले / चालू विकास काम',
+  desc: ' ग्रामपंचायत सातिवली अंतर्गत राबविलेले / चालू विकास काम',
 }))
 
 const ph = (e) => { e.target.src = 'https://via.placeholder.com/400x300/e2e8f0/64748b?text=Vikas+Kam' }
@@ -19,7 +19,7 @@ const VikasKame = () => {
     <div className="max-w-7xl mx-auto px-4 py-10">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
         <h1 className="text-3xl font-bold text-[#0b3d91] font-marathi mb-2">🏗️ विकास कामे</h1>
-        <p className="text-slate-500 font-marathi mb-8">🏡 गट ग्रामपंचायत सातिवली — गावातील विकास कामांची यादी व छायाचित्रे</p>
+        <p className="text-slate-500 font-marathi mb-8">🏡  ग्रामपंचायत सातिवली — गावातील विकास कामांची यादी व छायाचित्रे</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {works.map((w, i) => (
