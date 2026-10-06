@@ -13,7 +13,7 @@ const members = [
 ]
 
 const staff = [
-  { name: 'श्रीम. भावना नारायण ढोले', post: '📋 ग्रामसेविका', photo: '/images/bhavana.jpeg' },
+  { name: 'श्रीम. भावना नारायण ढोले', post: '📋 ग्रामपंचायत अधिकारी', photo: '/images/bhavana.jpeg' },
   { name: 'श्री. अनंता वामन देसले', post: '🗂️ ग्रा.पं. कर्मचारी', photo: '/images/ananta.jpeg' },
   { name: 'श्री. अजय सुभाष लहांगी', post: '💻 ऑपरेटर', photo: '/images/ajay.jpeg' },
 ]

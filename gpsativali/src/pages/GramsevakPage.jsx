@@ -13,7 +13,7 @@ const duties = [
 ]
 
 const staff = [
-  { name: 'श्रीम. भावना नारायण ढोले', post: '📋 ग्रामसेविका', photo: '/images/bhavana.jpeg', duties: 'ग्रामपंचायत प्रशासन, दाखले, बैठका, योजना अंमलबजावणी' },
+  { name: 'श्रीम. भावना नारायण ढोले', post: '📋 ग्रामपंचायत अधिकारी', photo: '/images/bhavana.jpeg', duties: 'ग्रामपंचायत प्रशासन, दाखले, बैठका, योजना अंमलबजावणी' },
   { name: 'श्री. अनंता वामन देसले', post: '🗂️ ग्रा.पं. कर्मचारी', photo: '/images/ananta.jpeg', duties: 'कार्यालयीन सहाय्य, नोंदी, कागदपत्र व्यवस्थापन' },
   { name: 'श्री. अजय सुभाष लहांगी', post: '💻 ऑपरेटर', photo: '/images/ajay.jpeg', duties: 'संगणकीय नोंदी, डिजिटल सेवा, डेटा एंट्री' },
 ]
@@ -29,18 +29,18 @@ const GramsevakPage = () => {
           </div>
           <div className="p-6 md:p-8 flex flex-col md:flex-row items-center gap-6">
             <div className="w-40 h-40 rounded-2xl overflow-hidden shadow-lg bg-slate-100 flex-shrink-0">
-              <img src="/images/bhavana.jpeg" alt="ग्रामसेविका" className="w-full h-full object-cover object-top" onError={ph} />
+              <img src="/images/bhavana.jpeg" alt="ग्रामपंचायत अधिकारी" className="w-full h-full object-cover object-top" onError={ph} />
             </div>
             <div className="text-center md:text-left">
               <h2 className="text-2xl font-bold text-slate-800 font-marathi">श्रीम. भावना नारायण ढोले</h2>
-              <p className="text-[#138808] font-semibold font-marathi mt-1">📋 ग्रामसेविका</p>
+              <p className="text-[#138808] font-semibold font-marathi mt-1">📋 ग्रामपंचायत अधिकारी</p>
               <p className="text-slate-500 font-marathi text-sm mt-2">🏡  ग्रामपंचायत सातिवली, ता. जि. पालघर</p>
               <p className="text-slate-500 font-marathi text-sm">🕐 कार्यालय वेळ: सकाळी १० ते संध्याकाळी ५</p>
             </div>
           </div>
         </div>
 
-        <h2 className="text-xl font-bold text-[#0b3d91] font-marathi mb-5">📋 ग्रामसेविका / अधिकाऱ्यांची जबाबदारी</h2>
+        <h2 className="text-xl font-bold text-[#0b3d91] font-marathi mb-5">📋 ग्रामपंचायत अधिकारी / अधिकाऱ्यांची जबाबदारी</h2>
         <div className="grid md:grid-cols-2 gap-4 mb-10">
           {duties.map((d, i) => (
             <motion.div key={i} initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.05 }} viewport={{ once: true }}

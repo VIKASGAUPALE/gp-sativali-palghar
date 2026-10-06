@@ -24,7 +24,7 @@ const Home = () => {
   const leaders = [
     { role: '👑 सरपंच', name: 'श्री. कृष्णा मंगल जाधव', photo: '/images/krushna.jpeg', link: '/sarpanch' },
     { role: '🏅 उपसरपंच', name: 'श्री. जयवंत नरसू करपट', photo: '/images/jaywant.jpeg', link: '/upsarpanch' },
-    { role: '📋 ग्रामसेविका', name: 'श्रीम. भावना नारायण ढोले', photo: '/images/bhavana.jpeg', link: '/sachiv' },
+    { role: '📋 ग्रामपंचायत अधिकारी', name: 'श्रीम. भावना नारायण ढोले', photo: '/images/bhavana.jpeg', link: '/sachiv' },
   ]
 
   const dignitaries = [

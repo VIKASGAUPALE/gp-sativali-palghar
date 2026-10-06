@@ -7,24 +7,35 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
+
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'logo192.png', 'logo512.png'],
+
+      includeAssets: [
+        'images/logo.png'
+      ],
+
       manifest: {
-        name: 'गट ग्रामपंचायत सातिवली',
+        name: 'ग्रामपंचायत सातिवली',
         short_name: 'सातिवली GP',
+
+        description:
+          'ग्रामपंचायत सातिवली - तालुका पालघर | जिल्हा पालघर',
+
         theme_color: '#0b3d91',
         background_color: '#ffffff',
+
         display: 'standalone',
         start_url: '/',
+
         icons: [
           {
-            src: 'logo192.png',
+            src: '/images/logo.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'logo512.png',
+            src: '/images/logo.png',
             sizes: '512x512',
             type: 'image/png'
           }
@@ -32,6 +43,7 @@ export default defineConfig({
       }
     })
   ],
+
   server: {
     hmr: {
       overlay: false
